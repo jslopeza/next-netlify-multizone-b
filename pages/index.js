@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">App A</a>
+          Welcome to <a href="https://nextjs.org">App B</a>
         </h1>
 
         <div className={styles.grid}>
