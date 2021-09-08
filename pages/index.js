@@ -17,15 +17,19 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/" className={styles.card}>
-            <h2>Home</h2>
+          <Link href="/">
+            <a className={styles.card}>
+              <h2>Home</h2>
+            </a>
           </Link>
 
-          <Link href="/app-a" className={styles.card}>
-            <h2>App A</h2>
+          <Link href="/app-a">
+            <a className={styles.card}>
+              <h2>App A</h2>
+            </a>
           </Link>
         </div>
       </main>
     </div>
-  )
+  );
 }
